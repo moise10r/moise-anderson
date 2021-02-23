@@ -14,3 +14,116 @@ body{
     color : #f3f3f3;
     font-size: 21px;
 }
+
+#header {
+    /* width: 50%; */
+    height: 150px;
+  
+    justify-content: center;
+    align-items: center;
+}
+#title{
+
+    margin-bottom: 10px;
+}
+
+#description{
+    margin-bottom: 10px;
+}
+
+#container{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    background-color: rgba(27, 27, 50, 0.822);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.form-control{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.form-radio{
+    width: 100%;
+
+}
+.form-radio label{
+    line-height: 0px;    
+}
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.form-control label{
+    line-height: 40px;
+}
+.form-control input{
+    margin-bottom: 20px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.form-control p{
+    margin-bottom: 5px;
+}
+.form-control div input{
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 0;
+}
+.form-control div label{
+    padding-left: 10px;
+    /* justify-content: center;
+    align-items: center; */
+    padding-bottom: 20px;
+}
+#button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color:  #37af65;
+    border: none;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+#textarea {
+    line-height: 15px;
+    /* background-color: rgb(196, 193, 193); */
+    padding: 20px 0px 0px 20px;
+    height: 120px;
+    align-items: flex-start;
+    /* padding-bottom: 12px; */
+    font-size: 18px;
+}
+#dropdown  {
+    /* line-height: px; */
+    height: 35px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+#dropdown option span:hover {
+    background-color: brown ;
+}
+#submit{
+    width: 100%;
+    margin-top: 12px;
+    background-color: green;
+    border-radius: 30px;
+    padding: 12px 30px;
+    border-style: none;
+    font-size: 1.2rem;
+    color: #fff;
+}

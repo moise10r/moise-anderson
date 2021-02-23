@@ -57,6 +57,7 @@ body{
 }
 #survey-form {
     display: flex;
+    width: 85%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
